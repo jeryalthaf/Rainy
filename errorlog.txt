@@ -1,0 +1,21 @@
+02-11 06:06:02.647: E/AndroidRuntime(1163): FATAL EXCEPTION: main
+02-11 06:06:02.647: E/AndroidRuntime(1163): Process: com.jeryalthaf.rainy, PID: 1163
+02-11 06:06:02.647: E/AndroidRuntime(1163): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.jeryalthaf.rainy/com.jeryalthaf.rainy.MainActivity}: java.lang.NullPointerException
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2233)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.os.Looper.loop(Looper.java:136)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at java.lang.reflect.Method.invoke(Method.java:515)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at dalvik.system.NativeStart.main(Native Method)
+02-11 06:06:02.647: E/AndroidRuntime(1163): Caused by: java.lang.NullPointerException
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at com.jeryalthaf.rainy.MainActivity.onCreate(MainActivity.java:57)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.Activity.performCreate(Activity.java:5231)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2148)
+02-11 06:06:02.647: E/AndroidRuntime(1163): 	... 11 more
